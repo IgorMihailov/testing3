@@ -13,7 +13,7 @@ SOURCES += main.cpp \
 HEADERS += \
     functions.h
 
-QMAKE_CFLAGS += -Wall -Wextra -Werror
+QMAKE_CFLAGS += -Wall -Wextra -Werror -std=c++11
 
 # gcov
 QMAKE_CFLAGS += -fprofile-arcs -ftest-coverage

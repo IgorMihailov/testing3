@@ -12,7 +12,7 @@ void saveresult(int score, QString name, QString file_name)
         }
     else
         {
-            cout << "Can't open leaderboard" << endl;
+            std::cout << "Can't open leaderboard" << std::endl;
         }
 
 }

@@ -1,3 +1,6 @@
-[![Build Status](https://www.travis-ci.org/Haaizenberg/TestingLabs-project.svg?branch=master)](https://travis-ci.org/Haaizenberg/TestingLabs-project)
-[![Coverage Status](https://coveralls.io/repos/github/Haaizenberg/TestingLabs-project/badge.svg?branch=master)](https://coveralls.io/github/Haaizenberg/TestingLabs-project?branch=master)
-[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=Haaizenberg_TestingLabs-project&metric=alert_status)](https://sonarcloud.io/dashboard?id=Haaizenberg_TestingLabs-project)
+# testing2
+[![Build Status](https://travis-ci.org/igormihailov/testing3.svg?branch=master)](https://travis-ci.org/igormihailov/testing3)
+[![Coverage Status](https://coveralls.io/repos/github/IgorMihailov/testing3/badge.svg?branch=master)](https://coveralls.io/github/IgorMihailov/testing2?branch=master)
+[![Bugs](https://sonarcloud.io/api/project_badges/measure?project=Igor_Mihailov_testing3&metric=bugs)](https://sonarcloud.io/dashboard?id=Igor_Mihailov_testing3)
+[![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=Igor_Mihailov_testing3&metric=code_smells)](https://sonarcloud.io/dashboard?id=Igor_Mihailov_testing3)
+[![Lines of Code](https://sonarcloud.io/api/project_badges/measure?project=Igor_Mihailov_testing3&metric=ncloc)](https://sonarcloud.io/dashboard?id=Igor_Mihailov_testing3)

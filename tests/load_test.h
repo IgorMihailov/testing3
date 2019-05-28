@@ -29,7 +29,7 @@ TEST(loadTest1, morethan10) {
 }
 
 TEST(loadTest2, lessthan10) {
-    QString inputPath = "tests/input/loadInput3.txt";
+    QString inputPath = "tests/input/loadinput3.txt";
     QString outputString = loadresult(inputPath);
     QFile expected("tests/expected/loadExpected3.txt");
     QString expectedString;

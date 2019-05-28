@@ -7,9 +7,9 @@
 
 
 TEST(loadTest1, morethan10) {
-    QString inputPath = "C:/Users/NXD/Desktop/8nMfFwt/TestingLabs-project-master/TestingLabs-project-master/tests/input/loadInput1.txt";
+    QString inputPath = "tests/input/loadInput1.txt";
     QString outputString = loadresult(inputPath);
-    QFile expected("C:/Users/NXD/Desktop/8nMfFwt/TestingLabs-project-master/TestingLabs-project-master/tests/expected/loadExpected1.txt");
+    QFile expected("tests/expected/loadExpected1.txt");
     QString expectedString;
 
     if (expected.open(QIODevice::ReadOnly)){
@@ -29,9 +29,9 @@ TEST(loadTest1, morethan10) {
 }
 
 TEST(loadTest2, lessthan10) {
-    QString inputPath = "D:/TestingLabs-project-master/TestingLabs-project-master/tests/input/loadInput3.txt";
+    QString inputPath = "tests/input/loadInput3.txt";
     QString outputString = loadresult(inputPath);
-    QFile expected("D:/TestingLabs-project-master/TestingLabs-project-master/tests/expected/loadExpected3.txt");
+    QFile expected("tests/expected/loadExpected3.txt");
     QString expectedString;
 
     if (expected.open(QIODevice::ReadOnly)){
@@ -51,9 +51,9 @@ TEST(loadTest2, lessthan10) {
 }
 
 TEST(loadTest3, none) {
-    QString inputPath = "D:/TestingLabs-project-master/TestingLabs-project-master/tests/input/loadInput2.txt";
+    QString inputPath = "tests/input/loadInput2.txt";
     QString outputString = loadresult(inputPath);
-    QFile expected("D:/TestingLabs-project-master/TestingLabs-project-master/tests/expected/loadExpected2.txt");
+    QFile expected("tests/expected/loadExpected2.txt");
     QString expectedString;
 
     if (expected.open(QIODevice::ReadOnly)){

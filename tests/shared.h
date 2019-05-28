@@ -2,6 +2,7 @@
 #define SHARED_H
 #include "functions.h"
 #include <gtest/gtest.h>
+using namespace std;
 
 bool executeTest(QString output, QString expected)
 {

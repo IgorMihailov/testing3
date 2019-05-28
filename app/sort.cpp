@@ -7,7 +7,7 @@ void sorting(QString Path, QString OutputPath)
       int num;
       QString sss;
     };
-    vector<S> statistic;
+    std::vector<S> statistic;
     size_t k = 0;
     QFile Output(OutputPath);
 

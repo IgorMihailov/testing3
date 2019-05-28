@@ -44,7 +44,7 @@ TEST(saveTest1, normal)
 
 TEST(saveTest2, longName)
 {
-    QString inputPath = "input/saveInput2.txt";
+    QString inputPath = "tests/input/saveInput2.txt";
     QFile input(inputPath);
     input.open(QFile::WriteOnly|QFile::Truncate);
     input.close();

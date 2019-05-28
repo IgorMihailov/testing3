@@ -1,4 +1,5 @@
 #include "functions.h"
+#include <QStringList>
 
 void sorting(QString Path, QString OutputPath)
 {

@@ -2,5 +2,5 @@
 
 int main()
 {
-    cout << "Output file: " << "app" << endl;
+    std::cout << "Output file: " << "app" << std::endl;
 }

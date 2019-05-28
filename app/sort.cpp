@@ -3,10 +3,6 @@
 void sorting(QString Path, QString OutputPath)
 {
     QFile file(Path);
-    struct S{
-      int num;
-      QString sss;
-    };
     std::vector<S> statistic;
     size_t k = 0;
     QFile Output(OutputPath);

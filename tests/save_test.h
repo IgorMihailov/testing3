@@ -6,12 +6,12 @@
 
 TEST(saveTest1, normal)
 {
-    QString inputPath = "D:/TestingLabs-project-master/TestingLabs-project-master/tests/input/saveInput1.txt";
+    QString inputPath = "tests/input/saveInput1.txt";
     QFile input(inputPath);
     input.open(QFile::WriteOnly|QFile::Truncate);
     input.close();
 
-    QFile expected("D:/TestingLabs-project-master/TestingLabs-project-master/tests/expected/saveExpected1.txt");
+    QFile expected("tests/expected/saveExpected1.txt");
     QString name = "Player1";
 
     saveresult(10, name, inputPath);
@@ -44,12 +44,12 @@ TEST(saveTest1, normal)
 
 TEST(saveTest2, longName)
 {
-    QString inputPath = "D:/TestingLabs-project-master/TestingLabs-project-master/tests/input/saveInput2.txt";
+    QString inputPath = "input/saveInput2.txt";
     QFile input(inputPath);
     input.open(QFile::WriteOnly|QFile::Truncate);
     input.close();
 
-    QFile expected("D:/TestingLabs-project-master/TestingLabs-project-master/tests/expected/saveExpected2.txt");
+    QFile expected("tests/expected/saveExpected2.txt");
     QString name = "reeeeeeeeeeeeeeeeeeeeeeaaaaaaaaaaaaaaaaallllllyyylooooooooongplaaaayeeeeeeer";
 
     saveresult(0, name, inputPath);
@@ -81,12 +81,12 @@ TEST(saveTest2, longName)
 }
 TEST(saveTest3, highScores)
 {
-    QString inputPath = "D:/TestingLabs-project-master/TestingLabs-project-master/tests/input/saveInput3.txt";
+    QString inputPath = "tests/input/saveInput3.txt";
     QFile input(inputPath);
     input.open(QFile::WriteOnly|QFile::Truncate);
     input.close();
 
-    QFile expected("D:/TestingLabs-project-master/TestingLabs-project-master/tests/expected/saveExpected3.txt");
+    QFile expected("tests/expected/saveExpected3.txt");
     QString name = "Player3";
 
     saveresult(1000000000, name, inputPath);
@@ -118,12 +118,12 @@ TEST(saveTest3, highScores)
 }
 TEST(saveTest4, specialSymbols)
 {
-    QString inputPath = "D:/TestingLabs-project-master/TestingLabs-project-master/tests/input/saveInput4.txt";
+    QString inputPath = "tests/input/saveInput4.txt";
     QFile input(inputPath);
     input.open(QFile::WriteOnly|QFile::Truncate);
     input.close();
 
-    QFile expected("D:/TestingLabs-project-master/TestingLabs-project-master/tests/expected/saveExpected4.txt");
+    QFile expected("tests/expected/saveExpected4.txt");
     QString name = "1234567890()_=<>";
 
     saveresult(15000, name, inputPath);

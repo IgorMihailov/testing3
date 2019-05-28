@@ -48,6 +48,7 @@ TEST(loadTest2, lessthan10) {
         SUCCEED();
     else
         FAIL();
+
 }
 
 TEST(loadTest3, none) {

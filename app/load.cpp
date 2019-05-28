@@ -1,9 +1,9 @@
 #include "functions.h"
 
 
-QString loadresult()
+QString loadresult(QString path)
 {
-    QFile file("../GAME/leaderboard.txt");
+    QFile file(path);
     QString block;
     int i = 0;
     if ((file.exists())&&(file.open(QIODevice::ReadOnly)))

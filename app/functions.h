@@ -13,7 +13,7 @@ using namespace std;
 
 bool check(int plx, int ply, int plh, int plw, int obx, int oby, int obh, int obw);
 void saveresult(int score, QString name, QString file_name);
-QString loadresult();
-void sorting();
+QString loadresult(QString path);
+void sorting(QString Path, QString OutputPath);
 
 #endif // FUNCTIONS_H

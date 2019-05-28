@@ -39,4 +39,19 @@ DISTFILES += \
     input/saveInput4.txt \
     expected/saveExpected2.txt \
     expected/saveExpected3.txt \
-    expected/saveExpected4.txt
+    expected/saveExpected4.txt \
+    expected/loadExpected1.txt \
+    expected/loadExpected2.txt \
+    expected/loadExpected3.txt \
+    expected/sortExpected1.txt \
+    input/loadInput1.txt \
+    input/loadInput2.txt \
+    input/loadinput3.txt \
+    input/sortInput1.txt \
+    output/outputSort1.txt \
+    expected/sortExpected2.txt \
+    expected/sortExpected3.txt \
+    input/sortInput2.txt \
+    input/sortInput3.txt \
+    output/outputSort2.txt \
+    output/outputSort3.txt

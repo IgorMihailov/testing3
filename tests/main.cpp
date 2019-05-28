@@ -1,5 +1,7 @@
 #include "checkcollision_test.h"
 #include "save_test.h"
+#include "load_test.h"
+#include "sort_test.h"
 #include <gtest/gtest.h>
 
 int main(int argc, char *argv[])

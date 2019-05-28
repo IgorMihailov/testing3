@@ -1,14 +1,15 @@
 #include "functions.h"
 
-void sorting()
+void sorting(QString Path, QString OutputPath)
 {
-    QFile file("../GAME/leaderboard.txt");
+    QFile file(Path);
     struct S{
       int num;
       QString sss;
     };
     vector<S> statistic;
     size_t k = 0;
+    QFile Output(OutputPath);
 
     if (file.open(QIODevice::ReadOnly)){
         while(!file.atEnd()){
@@ -34,16 +35,16 @@ void sorting()
         }
     }
 
-    if(file.open(QIODevice::WriteOnly | QIODevice::Text))
+    if(Output.open(QIODevice::WriteOnly | QIODevice::Text))
             {
 
                 while(k < statistic.size())
                 {
-                    QTextStream writeStream(&file);
+                    QTextStream writeStream(&Output);
                     writeStream << statistic[k].num << " " << statistic[k].sss;
                     k++;
                 }
-                file.close();
+                Output.close();
             }
 
 }

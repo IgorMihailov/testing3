@@ -15,4 +15,8 @@ void saveresult(int score, QString name, QString file_name);
 QString loadresult(QString path);
 void sorting(QString Path, QString OutputPath);
 
+struct S{
+      int num;
+      QString sss;
+    };
 #endif // FUNCTIONS_H

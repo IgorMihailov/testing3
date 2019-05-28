@@ -45,15 +45,15 @@ TEST(sortTest1, emptyFile)
 
 TEST(sortTest2, oneString)
 {
-    QString inputPath = "D:/TestingLabs-project-master/TestingLabs-project-master/tests/input/sortInput2.txt";
+    QString inputPath = "tests/input/sortInput2.txt";
     QFile input(inputPath);
 
-    QString outputPath = "D:/TestingLabs-project-master/TestingLabs-project-master/tests/output/outputSort2.txt";
+    QString outputPath = "tests/output/outputSort2.txt";
     QFile output(outputPath);
 
     sorting(inputPath, outputPath);
 
-    QFile expected("D:/TestingLabs-project-master/TestingLabs-project-master/tests/expected/sortExpected2.txt");
+    QFile expected("tests/expected/sortExpected2.txt");
 
     QString outputString;
     QString expectedString;
@@ -84,15 +84,15 @@ TEST(sortTest2, oneString)
 
 TEST(sortTest3, manyStrings)
 {
-    QString inputPath = "D:/TestingLabs-project-master/TestingLabs-project-master/tests/input/sortInput3.txt";
+    QString inputPath = "tests/input/sortInput3.txt";
     QFile input(inputPath);
 
-    QString outputPath = "D:/TestingLabs-project-master/TestingLabs-project-master/tests/output/outputSort3.txt";
+    QString outputPath = "tests/output/outputSort3.txt";
     QFile output(outputPath);
 
     sorting(inputPath, outputPath);
 
-    QFile expected("D:/TestingLabs-project-master/TestingLabs-project-master/tests/expected/sortExpected3.txt");
+    QFile expected("tests/expected/sortExpected3.txt");
 
     QString outputString;
     QString expectedString;
